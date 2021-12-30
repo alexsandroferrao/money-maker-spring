@@ -16,7 +16,6 @@ import java.util.Optional;
 import static io.restassured.http.ContentType.JSON;
 import static io.restassured.module.mockmvc.RestAssuredMockMvc.*;
 import static org.apache.http.HttpStatus.*;
-import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.CoreMatchers.is;
 
 @WebMvcTest
